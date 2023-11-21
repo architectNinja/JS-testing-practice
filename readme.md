@@ -21,7 +21,7 @@ Start by understanding the ubiquitous testing practices that are the foundation 
 
 <br/>
 
-### Written By Yoni Goldberg - A JavaScript & Node.js consultant
+### Written By architectNinja - A JavaScript & Node.js consultant
 
 ### 👨‍🏫 Exciting news: I've just released my super-comprehensive testing course after two years of recording and editing. [Less than 48 hours left for the 🎁 special launch deal](https://testjavascript.com/)
 
@@ -762,7 +762,7 @@ A word of caution: the TDD argument in the software world takes a typical false-
 
 ![alt text](assets/bp-12-rich-testing.jpeg "Cindy Sridharan suggests a rich testing portfolio in her amazing post ‘Testing Microservices — the sane way’")
 
-<strong class="markup--strong markup--p-strong">☺️Example: </strong><a href="https://www.youtube.com/watch?v=-2zP494wdUY&amp;feature=youtube" data-href="https://www.youtube.com/watch?v=-2zP494wdUY&amp;feature=youtu.be" class="markup--anchor markup--p-anchor" rel="nofollow noopener" target="_blank">[YouTube: “Beyond Unit Tests: 5 Shiny Node.JS Test Types (2018)” (Yoni Goldberg)](https://www.youtube.com/watch?v=-2zP494wdUY&feature=youtu.be)</a>
+<strong class="markup--strong markup--p-strong">☺️Example: </strong><a href="https://www.youtube.com/watch?v=-2zP494wdUY&amp;feature=youtube" data-href="https://www.youtube.com/watch?v=-2zP494wdUY&amp;feature=youtu.be" class="markup--anchor markup--p-anchor" rel="nofollow noopener" target="_blank">[YouTube: “Beyond Unit Tests: 5 Shiny Node.JS Test Types (2018)” (architectNinja)](https://www.youtube.com/watch?v=-2zP494wdUY&feature=youtu.be)</a>
 
 <br/>
 
@@ -1146,7 +1146,7 @@ beforeEach(() => {
 ```javascript
 test("When users-list is flagged to show only VIP, should display only VIP members", () => {
   // Arrange
-  const allUsers = [{ id: 1, name: "Yoni Goldberg", vip: false }, { id: 2, name: "John Doe", vip: true }];
+  const allUsers = [{ id: 1, name: "architectNinja", vip: false }, { id: 2, name: "John Doe", vip: true }];
 
   // Act
   const { getAllByTestId } = render(<UsersList users={allUsers} showOnlyVIP={true} />);
@@ -1165,7 +1165,7 @@ test("When users-list is flagged to show only VIP, should display only VIP membe
 ```javascript
 test("When flagging to show only VIP, should display only VIP members", () => {
   // Arrange
-  const allUsers = [{ id: 1, name: "Yoni Goldberg", vip: false }, { id: 2, name: "John Doe", vip: true }];
+  const allUsers = [{ id: 1, name: "architectNinja", vip: false }, { id: 2, name: "John Doe", vip: true }];
 
   // Act
   const { getAllByTestId } = render(<UsersList users={allUsers} showOnlyVIP={true} />);
@@ -2026,7 +2026,7 @@ An efficient update policy may allow some ‘vesting period’ — let the c
 
 # Team
 
-## Yoni Goldberg
+## architectNinja
 
 <br/>
 <img width="480px" src="assets/yoni-goldberg.jpg"/>
